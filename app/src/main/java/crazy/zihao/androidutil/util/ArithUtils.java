@@ -3,9 +3,9 @@ package crazy.zihao.androidutil.util;
 import java.math.BigDecimal;
 
 /**
- * ClassName：ArithUtil
+ * ClassName：ArithUtils
  * Description：TODO<便于精确计算的工具类>
- * Author：Administrator
+ * Author：zihao
  * Date：2017/7/7 17:03
  * Email：crazy.zihao@gmail.com
  * Version：v1.0
@@ -14,13 +14,13 @@ import java.math.BigDecimal;
  * 确的浮点数运算，包括加减乘除和四舍五入。
  * <p>
  */
-public class ArithUtil {
+public class ArithUtils {
 
     //默认除法运算精度，默认保存小数点后10位
     private static final int DEF_DIV_SCALE = 10;
 
     //这个类不能实例化
-    private ArithUtil() {
+    private ArithUtils() {
     }
 
     /**
