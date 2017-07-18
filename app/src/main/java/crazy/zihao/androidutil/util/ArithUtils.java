@@ -19,8 +19,11 @@ public class ArithUtils {
     //默认除法运算精度，默认保存小数点后10位
     private static final int DEF_DIV_SCALE = 10;
 
-    //这个类不能实例化
     private ArithUtils() {
+         /* cannot be instantiated.
+          * 这个类不需要实例化，防止在有参构造函数的情况下引发血案；防止对工具类进行反射构造.
+          */
+        throw new UnsupportedOperationException("cannot be instantiated");
     }
 
     /**

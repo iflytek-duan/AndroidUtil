@@ -19,6 +19,10 @@ public class AppUtils {
 
     private static final String TAG = AppUtils.class.getSimpleName();
 
+    private AppUtils() {
+        throw new UnsupportedOperationException("cannot be instantiated");
+    }
+
     /**
      * 获取应用版本名称
      *

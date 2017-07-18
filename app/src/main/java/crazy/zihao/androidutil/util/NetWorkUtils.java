@@ -37,6 +37,10 @@ public class NetWorkUtils {
      */
     private static final int NETWORK_TYPE_WIFI = 4;
 
+    private NetWorkUtils() {
+        throw new UnsupportedOperationException("cannot be instantiated");
+    }
+
     /**
      * 检测机器是否连接网络
      *

@@ -19,6 +19,10 @@ import java.util.Locale;
  */
 public class LogUtils {
 
+    private LogUtils() {
+        throw new UnsupportedOperationException("cannot be instantiated");
+    }
+
     private static final int MAX_FILE_SIZE = 20 * 1024 * 1024; // 最大保存20MB
     private static boolean mLoggingEnabled = false;
     private static boolean mMscLogging = false;

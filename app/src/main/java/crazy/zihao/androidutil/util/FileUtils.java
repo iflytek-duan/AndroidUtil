@@ -8,12 +8,16 @@ import java.math.BigDecimal;
 /**
  * ClassName：FileUtils
  * Description：TODO<文件管理工具类>
- * Author：Administrator
+ * Author：zihao
  * Date：2017/7/17 10:04
- * Email：jgduan@dohenes.com
+ * Email：crazy.zihao@gmail.com
  * Version：v1.0
  */
 public class FileUtils {
+
+    private FileUtils() {
+        throw new UnsupportedOperationException("cannot be instantiated");
+    }
 
     /**
      * 删除方法 这里只会删除某个文件夹下的文件，如果传入的directory是个文件，将不做处理
